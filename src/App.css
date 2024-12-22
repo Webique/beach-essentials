@@ -1,0 +1,91 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFF4CC; /* Light yellow from the logo */
+  color: #2E86AB; /* Blue from the logo */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF4CC; /* Same light yellow as the background */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li button {
+  background: none;
+  border: none;
+  color: #2E86AB; /* Blue from the logo */
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar ul li button:hover {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFF4CC; /* Same as body background */
+}
+
+h1 {
+  color: #2E86AB; /* Blue from the logo */
+}
+
+.shop-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 1rem; /* Space between buttons */
+  align-items: center; /* Center the buttons horizontally */
+}
+
+.shop-buttons button {
+  background-color: #2E86AB; /* Blue from the logo */
+  color: #FFF4CC; /* Light yellow from the logo */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 200px; /* Optional: Set a uniform button width */
+}
+
+.shop-buttons button:hover {
+  background-color: #FFF4CC; /* Swap colors on hover */
+  color: #2E86AB;
+  transform: scale(1.05);
+}
+
+.shop-buttons button:active {
+  transform: scale(1);
+}

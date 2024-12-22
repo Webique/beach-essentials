@@ -1,0 +1,30 @@
+/* src/pages/Shop.css */
+.shop-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .shop-buttons button {
+    background-color: #2E86AB; /* Blue from the logo */
+    color: #FFF4CC; /* Light yellow from the logo */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .shop-buttons button:hover {
+    background-color: #FFF4CC; /* Swap colors on hover */
+    color: #2E86AB;
+    transform: scale(1.05);
+  }
+  
+  .shop-buttons button:active {
+    transform: scale(1);
+  }
+  
